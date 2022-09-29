@@ -16,6 +16,7 @@
 		00DF73BC28E09C9D0015AEDD /* rgtarkovskiyPW2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73BB28E09C9D0015AEDD /* rgtarkovskiyPW2UITests.swift */; };
 		00DF73BE28E09C9D0015AEDD /* rgtarkovskiyPW2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73BD28E09C9D0015AEDD /* rgtarkovskiyPW2UITestsLaunchTests.swift */; };
 		00DF73CB28E0A6230015AEDD /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73CA28E0A6230015AEDD /* UIViewPin.swift */; };
+		00DF73CD28E3C5C00015AEDD /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		00DF73BB28E09C9D0015AEDD /* rgtarkovskiyPW2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rgtarkovskiyPW2UITests.swift; sourceTree = "<group>"; };
 		00DF73BD28E09C9D0015AEDD /* rgtarkovskiyPW2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rgtarkovskiyPW2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		00DF73CA28E0A6230015AEDD /* UIViewPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewPin.swift; path = ../../../Downloads/UIViewPin.swift; sourceTree = "<group>"; };
+		00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				00DF73A528E09C9D0015AEDD /* LaunchScreen.storyboard */,
 				00DF73CA28E0A6230015AEDD /* UIViewPin.swift */,
 				00DF73A828E09C9D0015AEDD /* Info.plist */,
+				00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */,
 			);
 			path = rgtarkovskiyPW2;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DF73CD28E3C5C00015AEDD /* ColorPalette.swift in Sources */,
 				00DF739F28E09C9C0015AEDD /* ViewController.swift in Sources */,
 				00DF739B28E09C9C0015AEDD /* AppDelegate.swift in Sources */,
 				00DF73CB28E0A6230015AEDD /* UIViewPin.swift in Sources */,
