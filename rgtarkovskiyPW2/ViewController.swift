@@ -156,6 +156,8 @@ final class ViewController: UIViewController {
         colorsBottun.addTarget(self, action: #selector(paletteButtonPressed), for: .touchUpInside)
         
         let notesButton = makeMenuButton(title: "notes")
+        
+        notesButton.addTarget(self, action: #selector(notesButtonPressed), for: .touchUpInside)
         let newsButton = makeMenuButton(title: "news")
         
         buttonSV = UIStackView(arrangedSubviews: [colorsBottun, notesButton, newsButton])
@@ -168,6 +170,11 @@ final class ViewController: UIViewController {
         buttonSV.pin(to: self.view, [.left: 24, .right: 24])
         buttonSV.pinBottom(to: self.view.safeAreaLayoutGuide.bottomAnchor, 24)
         
+    }
+    
+    @objc
+    func notesButtonPressed() {
+        self.present(NotesViewController(), animated: true, completion: nil)
     }
     
     @objc
