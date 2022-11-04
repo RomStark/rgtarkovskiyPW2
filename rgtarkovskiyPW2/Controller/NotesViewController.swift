@@ -7,10 +7,15 @@
 
 import UIKit
 
+protocol SaveNotes {
+    func saveNotes(notes: [ShortNote])
+}
+
 final class NotesViewController: UIViewController {
     
     private let tableView = UITableView(frame: .zero, style: .insetGrouped)
     private var dataSource = [ShortNote]()
+    var delegate: SaveNotes?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,14 +33,21 @@ final class NotesViewController: UIViewController {
         setupTableView()
     }
     
+    func setDataSource(dataSource: [ShortNote]) {
+        self.dataSource = dataSource
+    }
+    
     private func setupNavBar() {
         self.title = "Notes"
-        let closeButton = UIButton(type: .close)
-        closeButton.addTarget(self, action: #selector(dismissViewController(_: )), for: .touchUpInside)
+//        let closeButton = UIButton(type: .close)
+//        closeButton.addTarget(self, action: #selector(dismissViewController(_: )), for: .touchUpInside)
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(dismissViewController(_:)))
     }
     
     @objc
     private func dismissViewController(_ sender: UIButton) {
+        delegate?.saveNotes(notes: dataSource)
         self.dismiss(animated: true, completion: nil)
     }
     

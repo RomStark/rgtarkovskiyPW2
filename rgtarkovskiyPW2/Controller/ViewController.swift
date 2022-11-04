@@ -16,6 +16,8 @@ final class ViewController: UIViewController {
     private var buttonSV: UIStackView = UIStackView()
     var colorPaletteView = ColorPaletteView()
     
+    private var dataSource = [ShortNote]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -159,6 +161,7 @@ final class ViewController: UIViewController {
         
         notesButton.addTarget(self, action: #selector(notesButtonPressed), for: .touchUpInside)
         let newsButton = makeMenuButton(title: "news")
+        newsButton.addTarget(self, action: #selector(newsButtonPressed), for: .touchUpInside)
         
         buttonSV = UIStackView(arrangedSubviews: [colorsBottun, notesButton, newsButton])
         buttonSV.spacing = 12
@@ -173,8 +176,19 @@ final class ViewController: UIViewController {
     }
     
     @objc
+    func newsButtonPressed() {
+        let newsListVC = NewsListViewController()
+        navigationController?.pushViewController(newsListVC, animated: true)
+//        self.present(newsListVC, animated: true, completion: nil)
+    }
+    
+    @objc
     func notesButtonPressed() {
-        self.present(NotesViewController(), animated: true, completion: nil)
+        let noteVC = NotesViewController()
+        noteVC.delegate = self
+        noteVC.setDataSource(dataSource: dataSource)
+        self.present(noteVC, animated: true, completion: nil)
+//        self.navigationController?.pushViewController(noteVC, animated: true)
     }
     
     @objc
@@ -194,3 +208,11 @@ final class ViewController: UIViewController {
    
 }
 
+extension ViewController: SaveNotes {
+    func saveNotes(notes: [ShortNote]) {
+        self.dataSource = notes
+        print(self.dataSource)
+    }
+    
+    
+}

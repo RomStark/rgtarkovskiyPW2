@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002AEB7B2910A1EC005C7D0B /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB7A2910A1EC005C7D0B /* NewsListViewController.swift */; };
+		002AEB812910A28E005C7D0B /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB802910A28E005C7D0B /* UIViewPin.swift */; };
+		002AEB832910A592005C7D0B /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB822910A592005C7D0B /* NewsViewCell.swift */; };
+		002AEB852910B751005C7D0B /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB842910B751005C7D0B /* NewsViewModel.swift */; };
+		002AEB872913318B005C7D0B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB862913318B005C7D0B /* ApiService.swift */; };
+		002AEB892914B4F0005C7D0B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB882914B4F0005C7D0B /* NewsViewController.swift */; };
 		00DF739B28E09C9C0015AEDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF739A28E09C9C0015AEDD /* AppDelegate.swift */; };
 		00DF739D28E09C9C0015AEDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF739C28E09C9C0015AEDD /* SceneDelegate.swift */; };
 		00DF739F28E09C9C0015AEDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF739E28E09C9C0015AEDD /* ViewController.swift */; };
@@ -15,7 +21,6 @@
 		00DF73B228E09C9D0015AEDD /* rgtarkovskiyPW2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73B128E09C9D0015AEDD /* rgtarkovskiyPW2Tests.swift */; };
 		00DF73BC28E09C9D0015AEDD /* rgtarkovskiyPW2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73BB28E09C9D0015AEDD /* rgtarkovskiyPW2UITests.swift */; };
 		00DF73BE28E09C9D0015AEDD /* rgtarkovskiyPW2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73BD28E09C9D0015AEDD /* rgtarkovskiyPW2UITestsLaunchTests.swift */; };
-		00DF73CB28E0A6230015AEDD /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73CA28E0A6230015AEDD /* UIViewPin.swift */; };
 		00DF73CD28E3C5C00015AEDD /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */; };
 		00DF740E28EEFD7A0015AEDD /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF740D28EEFD7A0015AEDD /* NotesViewController.swift */; };
 		00DF741028EF04840015AEDD /* AddNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF740F28EF04840015AEDD /* AddNoteCell.swift */; };
@@ -41,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002AEB7A2910A1EC005C7D0B /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		002AEB7F2910A21C005C7D0B /* UIViewPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPin.swift; sourceTree = "<group>"; };
+		002AEB802910A28E005C7D0B /* UIViewPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewPin.swift; path = ../../../../Downloads/UIViewPin.swift; sourceTree = "<group>"; };
+		002AEB822910A592005C7D0B /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		002AEB842910B751005C7D0B /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		002AEB862913318B005C7D0B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		002AEB882914B4F0005C7D0B /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		00DF739728E09C9C0015AEDD /* rgtarkovskiyPW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rgtarkovskiyPW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF739A28E09C9C0015AEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DF739C28E09C9C0015AEDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +65,6 @@
 		00DF73B728E09C9D0015AEDD /* rgtarkovskiyPW2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rgtarkovskiyPW2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF73BB28E09C9D0015AEDD /* rgtarkovskiyPW2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rgtarkovskiyPW2UITests.swift; sourceTree = "<group>"; };
 		00DF73BD28E09C9D0015AEDD /* rgtarkovskiyPW2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rgtarkovskiyPW2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		00DF73CA28E0A6230015AEDD /* UIViewPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewPin.swift; path = ../../../Downloads/UIViewPin.swift; sourceTree = "<group>"; };
 		00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		00DF740D28EEFD7A0015AEDD /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		00DF740F28EF04840015AEDD /* AddNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteCell.swift; sourceTree = "<group>"; };
@@ -86,6 +97,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002AEB7C2910A1F8005C7D0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				002AEB802910A28E005C7D0B /* UIViewPin.swift */,
+				00DF741128EF061B0015AEDD /* ShortNote.swift */,
+				002AEB7F2910A21C005C7D0B /* UIViewPin.swift */,
+				00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */,
+				002AEB842910B751005C7D0B /* NewsViewModel.swift */,
+				002AEB862913318B005C7D0B /* ApiService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		002AEB7D2910A1FE005C7D0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00DF741328F026710015AEDD /* NoteCell.swift */,
+				00DF740F28EF04840015AEDD /* AddNoteCell.swift */,
+				002AEB822910A592005C7D0B /* NewsViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		002AEB7E2910A204005C7D0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00DF739E28E09C9C0015AEDD /* ViewController.swift */,
+				00DF740D28EEFD7A0015AEDD /* NotesViewController.swift */,
+				002AEB7A2910A1EC005C7D0B /* NewsListViewController.swift */,
+				002AEB882914B4F0005C7D0B /* NewsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		00DF738E28E09C9C0015AEDD = {
 			isa = PBXGroup;
 			children = (
@@ -109,18 +154,14 @@
 		00DF739928E09C9C0015AEDD /* rgtarkovskiyPW2 */ = {
 			isa = PBXGroup;
 			children = (
+				002AEB7E2910A204005C7D0B /* Controller */,
+				002AEB7D2910A1FE005C7D0B /* View */,
+				002AEB7C2910A1F8005C7D0B /* Model */,
 				00DF739A28E09C9C0015AEDD /* AppDelegate.swift */,
 				00DF739C28E09C9C0015AEDD /* SceneDelegate.swift */,
-				00DF739E28E09C9C0015AEDD /* ViewController.swift */,
 				00DF73A328E09C9D0015AEDD /* Assets.xcassets */,
 				00DF73A528E09C9D0015AEDD /* LaunchScreen.storyboard */,
-				00DF73CA28E0A6230015AEDD /* UIViewPin.swift */,
 				00DF73A828E09C9D0015AEDD /* Info.plist */,
-				00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */,
-				00DF740D28EEFD7A0015AEDD /* NotesViewController.swift */,
-				00DF740F28EF04840015AEDD /* AddNoteCell.swift */,
-				00DF741128EF061B0015AEDD /* ShortNote.swift */,
-				00DF741328F026710015AEDD /* NoteCell.swift */,
 			);
 			path = rgtarkovskiyPW2;
 			sourceTree = "<group>";
@@ -272,14 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002AEB812910A28E005C7D0B /* UIViewPin.swift in Sources */,
 				00DF741228EF061B0015AEDD /* ShortNote.swift in Sources */,
 				00DF73CD28E3C5C00015AEDD /* ColorPalette.swift in Sources */,
+				002AEB832910A592005C7D0B /* NewsViewCell.swift in Sources */,
 				00DF739F28E09C9C0015AEDD /* ViewController.swift in Sources */,
 				00DF740E28EEFD7A0015AEDD /* NotesViewController.swift in Sources */,
 				00DF739B28E09C9C0015AEDD /* AppDelegate.swift in Sources */,
+				002AEB872913318B005C7D0B /* ApiService.swift in Sources */,
+				002AEB852910B751005C7D0B /* NewsViewModel.swift in Sources */,
+				002AEB7B2910A1EC005C7D0B /* NewsListViewController.swift in Sources */,
 				00DF741028EF04840015AEDD /* AddNoteCell.swift in Sources */,
+				002AEB892914B4F0005C7D0B /* NewsViewController.swift in Sources */,
 				00DF741428F026710015AEDD /* NoteCell.swift in Sources */,
-				00DF73CB28E0A6230015AEDD /* UIViewPin.swift in Sources */,
 				00DF739D28E09C9C0015AEDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
