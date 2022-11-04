@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		002AEB7B2910A1EC005C7D0B /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB7A2910A1EC005C7D0B /* NewsListViewController.swift */; };
-		002AEB812910A28E005C7D0B /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB802910A28E005C7D0B /* UIViewPin.swift */; };
 		002AEB832910A592005C7D0B /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB822910A592005C7D0B /* NewsViewCell.swift */; };
 		002AEB852910B751005C7D0B /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB842910B751005C7D0B /* NewsViewModel.swift */; };
 		002AEB872913318B005C7D0B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB862913318B005C7D0B /* ApiService.swift */; };
 		002AEB892914B4F0005C7D0B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB882914B4F0005C7D0B /* NewsViewController.swift */; };
+		002AEB8B2914C4EF005C7D0B /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AEB8A2914C4EF005C7D0B /* UIViewPin.swift */; };
 		00DF739B28E09C9C0015AEDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF739A28E09C9C0015AEDD /* AppDelegate.swift */; };
 		00DF739D28E09C9C0015AEDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF739C28E09C9C0015AEDD /* SceneDelegate.swift */; };
 		00DF739F28E09C9C0015AEDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF739E28E09C9C0015AEDD /* ViewController.swift */; };
@@ -47,12 +47,11 @@
 
 /* Begin PBXFileReference section */
 		002AEB7A2910A1EC005C7D0B /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
-		002AEB7F2910A21C005C7D0B /* UIViewPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPin.swift; sourceTree = "<group>"; };
-		002AEB802910A28E005C7D0B /* UIViewPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewPin.swift; path = ../../../../Downloads/UIViewPin.swift; sourceTree = "<group>"; };
 		002AEB822910A592005C7D0B /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
 		002AEB842910B751005C7D0B /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		002AEB862913318B005C7D0B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		002AEB882914B4F0005C7D0B /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		002AEB8A2914C4EF005C7D0B /* UIViewPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPin.swift; sourceTree = "<group>"; };
 		00DF739728E09C9C0015AEDD /* rgtarkovskiyPW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rgtarkovskiyPW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF739A28E09C9C0015AEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DF739C28E09C9C0015AEDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,12 +99,11 @@
 		002AEB7C2910A1F8005C7D0B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				002AEB802910A28E005C7D0B /* UIViewPin.swift */,
 				00DF741128EF061B0015AEDD /* ShortNote.swift */,
-				002AEB7F2910A21C005C7D0B /* UIViewPin.swift */,
 				00DF73CC28E3C5C00015AEDD /* ColorPalette.swift */,
 				002AEB842910B751005C7D0B /* NewsViewModel.swift */,
 				002AEB862913318B005C7D0B /* ApiService.swift */,
+				002AEB8A2914C4EF005C7D0B /* UIViewPin.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -313,11 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002AEB812910A28E005C7D0B /* UIViewPin.swift in Sources */,
 				00DF741228EF061B0015AEDD /* ShortNote.swift in Sources */,
 				00DF73CD28E3C5C00015AEDD /* ColorPalette.swift in Sources */,
 				002AEB832910A592005C7D0B /* NewsViewCell.swift in Sources */,
 				00DF739F28E09C9C0015AEDD /* ViewController.swift in Sources */,
+				002AEB8B2914C4EF005C7D0B /* UIViewPin.swift in Sources */,
 				00DF740E28EEFD7A0015AEDD /* NotesViewController.swift in Sources */,
 				00DF739B28E09C9C0015AEDD /* AppDelegate.swift in Sources */,
 				002AEB872913318B005C7D0B /* ApiService.swift in Sources */,

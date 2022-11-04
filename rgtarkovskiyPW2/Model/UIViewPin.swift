@@ -1,8 +1,8 @@
 //
-//  UIView+Pin.swift
-//  gmsosnovskiyPW2
+//  UIViewPin.swift
+//  rgtarkovskiyPW2
 //
-//  Created by Григорий Сосновский on 19.09.2021.
+//  Created by Al Stark on 04.11.2022.
 //
 
 import UIKit
